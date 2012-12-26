@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-aug-04)-testing date = Sat 30 Jun 2012 07:38:27 PM EDT
+Cmp-Mod V01 Created by CvPcb (2012-04-08 BZR 3494)-testing date = Wed 26 Dec 2012 12:34:17 PM CST
 
 BeginCmp
 TimeStamp = /4FEB9904/4FEB9F39;
@@ -204,13 +204,6 @@ IdModule  = SM0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FEBB02F;
-Reference = C30;
-ValeurCmp = 0.1uF;
-IdModule  = SM0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /4FEBB088;
 Reference = C31;
 ValeurCmp = 0.01uF;
@@ -239,17 +232,10 @@ IdModule  = SM1210;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FEB9E88;
-Reference = D1;
-ValeurCmp = GREEN;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /4FEB9EA7;
-Reference = D2;
-ValeurCmp = GREEN;
-IdModule  = SM0805;
+TimeStamp = /50DA8174;
+Reference = CON1;
+ValeurCmp = MINI_USB_B;
+IdModule  = miniUSB_B;
 EndCmp
 
 BeginCmp
@@ -323,13 +309,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FEB9930;
-Reference = J1;
-ValeurCmp = HIROSE_UX60SX-MB-5ST_(MINI_USB);
-IdModule  = HRS_MINI_USB;
-EndCmp
-
-BeginCmp
 TimeStamp = /4FEBA392;
 Reference = J2;
 ValeurCmp = XILINX_JTAG;
@@ -393,17 +372,17 @@ IdModule  = PIN_ARRAY_5x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FEB9EB8;
-Reference = R1;
-ValeurCmp = 270;
-IdModule  = SM0603;
+TimeStamp = /50DAA0A3;
+Reference = P8;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FEB9EBC;
-Reference = R2;
-ValeurCmp = 270;
-IdModule  = SM0603;
+TimeStamp = /50DACD83;
+Reference = P9;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -437,14 +416,14 @@ EndCmp
 BeginCmp
 TimeStamp = /4FEBA573;
 Reference = R7;
-ValeurCmp = 10k;
+ValeurCmp = 0;
 IdModule  = SM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4FEBA5B7;
 Reference = R8;
-ValeurCmp = 10k;
+ValeurCmp = 0;
 IdModule  = SM0603;
 EndCmp
 
@@ -582,10 +561,24 @@ IdModule  = PROBEPAD;
 EndCmp
 
 BeginCmp
-TimeStamp = /4FEBCB33;
-Reference = U1;
-ValeurCmp = FT232RQ;
-IdModule  = QFN32;
+TimeStamp = /50DAB534;
+Reference = TP7;
+ValeurCmp = CONN_1;
+IdModule  = PROBEPAD;
+EndCmp
+
+BeginCmp
+TimeStamp = /50DAB52D;
+Reference = TP8;
+ValeurCmp = CONN_1;
+IdModule  = PROBEPAD;
+EndCmp
+
+BeginCmp
+TimeStamp = /50DAB527;
+Reference = TP9;
+ValeurCmp = CONN_1;
+IdModule  = PROBEPAD;
 EndCmp
 
 BeginCmp
